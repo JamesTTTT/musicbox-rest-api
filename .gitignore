@@ -1,0 +1,129 @@
+﻿# Ignore build and output directories
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Ignore local development files
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Ignore local configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore IDE-specific files
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Ignore NuGet packages and restore files
+.nuget/
+packages/
+*.nupkg
+NuGet.exe
+NuGet.Config
+
+# Ignore local tools and SDKs
+.dotnet/
+tools/
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore ReSharper files
+_ReSharper.*
+*.ReSharper
+*.DotSettings.user
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore Docker files
+docker-compose.*
+.dockerignore
+**/.docker/**
+**/docker-compose.*
+
+# Ignore Azure files
+.azure/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Node.js files (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Python files (if applicable)
+__pycache__/
+*.pyc
+
+# Ignore SQLite files (if applicable)
+*.db
+*.sqlite
+
+# Ignore PostgreSQL files (if applicable)
+*.pid
+*.lock
+*.log
+pgdata/
+
+# Ignore logs and diagnostics
+logs/
+*.log
+*.trx
+
+# Ignore compiled source files
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore temp files
+temp/
+tmp/
+
+# Ignore migrations (if you want to regenerate them)
+[Mm]igrations/
+
+# Ignore secrets and sensitive data
+secrets.json
+*.env
+*.secret
+
+# Ignore JetBrains Rider cache
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio cache directory
+.vs/
+
+# Ignore local development files
+launchSettings.json
+
+# Ignore Rider-specific files
+*.idea/
+*.sln.iml
+
+# Ignore Cake build files
+tools/
+!.tools/
